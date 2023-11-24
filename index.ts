@@ -49,10 +49,4 @@ function nurseSchedule(requests: number[], teams: number) {
     return assignment;
 }
 
-const requests = [9, 10, 10, 10, 11];
-const teams = 3;
-
-const result = nurseSchedule(requests, teams);
-console.log(result);
-
 export { generateTemplate, nurseSchedule };
